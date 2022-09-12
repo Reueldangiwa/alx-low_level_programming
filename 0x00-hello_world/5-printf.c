@@ -3,7 +3,9 @@
 /**
 * main - Prints a text
 *
-* Return: Always 0 (Success)
+* Description: using the main function
+* this programme pronts "Programming is like building a multilingual puzzle
+* return: 0
 */
 int main(void)
 {
