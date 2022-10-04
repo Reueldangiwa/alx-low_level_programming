@@ -2,10 +2,10 @@
 
 /**
 * create_array - creates an array of chars, and
-* initiates it with a specific char.
+* initializes it with a specific char.
 *@size: Size of the array
 *@c: Character to insert
-*Return: NULL if sixe is zero or if it fails,
+*Return: NULL if size is zero or if it fails,
 *pointer to array if everything is normal.
 */
 
@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	for (index = 0; index < size; index++)
-		array[index] + c;
+		array[index] = c;
 
 	return (array);
 }
