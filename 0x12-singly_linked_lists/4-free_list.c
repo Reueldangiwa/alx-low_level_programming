@@ -2,18 +2,18 @@
 
 /**
  * free_list - frees a list
- * @head: points to the beginnin of list
- * Return: void
+ * @head: head of the linked list.
+ * Return: no return.
  */
+
 void free_list(list_t *head)
 {
-	list_t *phree;
+	list_t *current;
 
-	while (head)
+	while ((current = head) != NULL)
 	{
-		phree = head;
 		head = head->next;
-		free(phree->str);
-		free(phree);
+		free(current->str);
+		free(current);
 	}
 }

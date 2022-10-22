@@ -1,1 +1,1 @@
-Singly linked list
+learning sinfly linked lists
